@@ -1,0 +1,65 @@
+
+    Map is an interface in Java in java.util package that represents a collection of
+        key-value pairs where each key is unique.
+
+        Map is like dictionary.
+
+-------------------------------------------------------------------
+
+Syntax:
+
+    Map<KeyType, ValueType> mapName = new HashMap<>();
+
+    Keys → Integer (e.g., roll number)
+
+    Values → String (e.g., student name)
+
+
+-------------------------------------------------------------------
+
+At the top of the hierarchy is the Map interface — it defines the rules
+for all map-like data structures in Java.
+
+It specifies that every map must:
+
+    1} Store key–value pairs.
+
+    2} Allow unique keys.
+
+    3} Provide basic operations like put(), get(), remove(), etc.
+
+
+
+             Map (Interface)
+                   |
+  -------------------------------------
+  |           |           |           |
+HashMap   LinkedHashMap  TreeMap   Hashtable
+                   |
+           ConcurrentHashMap
+
+
+
+***************************************************************
+Different ways to print all entries from a Map in Java.
+***************************************************************
+
+1}
+
+    for (Integer roll : studentMap.keySet()) {
+        System.out.println(roll + " " + studentMap.get(roll));
+    }
+
+-------------------------------------------------------------------
+2}
+
+    for (String name : studentMap.values()) {
+        System.out.println(name);
+    }
+
+-------------------------------------------------------------------
+3}
+
+    studentMap.forEach((roll, name) ->
+        System.out.println(roll + " " + name)
+    );

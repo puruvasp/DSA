@@ -1,0 +1,36 @@
+
+
+    A Hashmap in java is used to store the key value pairs, where each
+     key is unique and maps to exactly one value.
+
+----------------------------------------------------------------------------
+
+
+Syntax:
+
+        HashMap<Integer, String> map = new HashMap<>();
+
+        <Integer> -> Key Type
+
+        <String> -> Value Type
+
+         map -> Name of the HashMap
+
+----------------------------------------------------------------------------
+
+
+       1} Stores data as Key-Value pairs -->	Example: (101, "John")
+
+       2} No duplicate keys --> Each key must be unique.
+
+       3} One null key allowed --> Only one null key is allowed.
+
+       4} Multiple null values allowed --> You can have many null values.
+
+       5} Unordered --> It does not maintain insertion or sorting order.
+
+       6} Fast performance --> Average O(1) time complexity for put/get.
+
+       7} Uses Hashing --> Internally uses hashcode to find data quickly.
+
+-------------------------------------------------------------------------------

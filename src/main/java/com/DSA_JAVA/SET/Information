@@ -1,0 +1,42 @@
+
+
+    A Set in Java is a collection that does not allow duplicate element.
+    It is the part of the Java Collection Framework and is defined in the
+        java.util package.
+
+----------------------------------------------------------------------------------------
+
+Syntax:
+
+        Set<Type> setName = new HashSet<>();
+
+        <Type> -> Data Type of the Element(e.g., String , Integer)
+
+        setName -> Name of the Set
+
+----------------------------------------------------------------------------------------
+
+
+   1} No duplicates --> A Set cannot contain duplicate elements.
+
+   2} Unordered     --> Elements are not stored in any particular
+                        order (depends on implementation).
+
+   3} Null values   --> Some Set implementations allow one null element.
+
+   4} Implements Collection --> So, it inherits methods like add(), remove(),
+                                size(), iterator(), etc.
+
+
+               Collection (Interface)
+                        |
+                        |
+                       Set (Interface)
+                        |
+                        |
+        ---------------------------------
+        |               |               |
+   HashSet         LinkedHashSet       TreeSet
+
+
+
