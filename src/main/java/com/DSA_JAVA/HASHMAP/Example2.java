@@ -17,7 +17,6 @@ public class Example2 {
             }
             map.put(num, 1);
         }
-
         System.out.println(hasDuplicate);
     }
 }
