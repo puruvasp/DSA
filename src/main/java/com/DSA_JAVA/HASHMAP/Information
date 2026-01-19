@@ -18,7 +18,6 @@ Syntax:
 
 ----------------------------------------------------------------------------
 
-
        1} Stores data as Key-Value pairs -->	Example: (101, "John")
 
        2} No duplicate keys --> Each key must be unique.
