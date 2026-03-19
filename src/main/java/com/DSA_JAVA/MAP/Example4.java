@@ -9,7 +9,6 @@ public class Example4 {
         studentMap.put(102, "Bob");
         studentMap.put(103, "Charlie");
 
-
         System.out.println("Number of entries in Map: " + studentMap.size());
     }
 }
