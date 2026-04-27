@@ -17,4 +17,3 @@ public class Example5 {
         System.out.println("After removing 'Banana': " + fruits);
     }
 }
-
